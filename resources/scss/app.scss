@@ -1,13 +1,102 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    font-family: sans-serif;
-    background: #222;
-    color: white;
-}
-
-* {
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.logo {
+    width: 4rem;
+}
+
+form>ul>li {
+    border-bottom: solid 2px transparent;
+    line-height: 4em;
+
+}
+
+.link:hover {
+    border-bottom: solid 3px #0282F9;
+}
+
+.link:hover>a {
+    color: #0282F9
+}
+
+.jumbo {
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/img/jumbotron.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.cover {
+    width: 10rem;
+    height: 10rem;
+}
+
+.currentcomic {
+    top: -1rem;
+    background-color: #0282F9;
+    color: white;
+    font-weight: bold;
+    width: 10rem;
+    height: 2rem;
+}
+
+.menuwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.images {
+    width: 2rem;
+}
+
+.bg-blue {
+    background-color: #0282F9;
+}
+.bgimage {
+    background-image: url('../assets/img/footer-bg.jpg');
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+}
+
+.list-item {
+    color: gray;
+    font-size: small;
+    text-align: left;
+}
+
+.dclogo {
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 30rem;
+}
+
+.wrapper {
+    background-color: #303030;
+}
+
+.mybtn {
+    border: solid 1px #0282F9;
+}
+
+.textblue {
+    color: #0282F9;
 }
