@@ -13,10 +13,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
-    $dati = config("data");
-    return view('home', $dati);
+    return redirect()->route('comics.index');
 })->name("home");
 
 Route::resource("comics", ComicController::class);
